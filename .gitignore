@@ -1,0 +1,5 @@
+!.gitignore
+/docker/files/mysql/db/*
+/vagrant/*.log
+/vagrant/.vagrant
+/vagrant/.vagrant/*
