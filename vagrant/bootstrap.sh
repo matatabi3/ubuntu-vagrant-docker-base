@@ -30,11 +30,3 @@ apt-get install -y docker-ce
 usermod -aG docker vagrant
 
 apt-get install -y docker-compose
-
-# test -f /usr/local/bin/docker-compose && exit
-
-# output='docker-compose'
-# sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` > ./$output
-# chmod +x $output
-# mv docker-compose /usr/local/bin/docker-compose
-# chown root:root /usr/local/bin/docker-compose
